@@ -1,0 +1,32 @@
+l@L:~$ mkdir node    
+l@L:~$ cd node 
+l@L:~/node$ git init 
+初始化空的 Git 仓库于 /home/l/node/.git/ 
+l@L:~/node$ git add readme.txt 
+l@L:~/node$ git commit -m"wrote a readme file" 
+[master （根提交） 916533a] wrote a readme file 
+ 1 file changed, 1 insertion(+) 
+ create mode 100644 readme.txt 
+l@L:~/node$ git remote add origin git@github.com:6063/node.git 
+l@L:~/node$ git push -u origin master 
+Warning: Permanently added the RSA host key for IP address '192.30.255.112' to the list of known hosts. 
+Counting objects: 3, done. 
+Writing objects: 100% (3/3), 231 bytes | 0 bytes/s, done. 
+Total 3 (delta 0), reused 0 (delta 0) 
+To git@github.com:6063/node.git 
+ * [new branch]      master -> master 
+分支 master 设置为跟踪来自 origin 的远程分支 master。 
+l@L:~/node$ git add technology.txt 
+l@L:~/node$ git commit -m"add a txt" 
+[master beee6c2] add a txt 
+ 1 file changed, 1 insertion(+) 
+ create mode 100644 technology.txt 
+l@L:~/node$ git push origin master 
+Counting objects: 4, done. 
+Delta compression using up to 4 threads. 
+Compressing objects: 100% (2/2), done. 
+Writing objects: 100% (3/3), 304 bytes | 0 bytes/s, done. 
+Total 3 (delta 0), reused 0 (delta 0) 
+To git@github.com:6063/node.git 
+   916533a..beee6c2  master -> master 
+l@L:~/node$ 
