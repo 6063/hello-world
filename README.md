@@ -1,2 +1,2 @@
-# hello-world
-hello everyone first
+## Ubuntu下git的简单操作
+## Ubuntu下redis的安装
